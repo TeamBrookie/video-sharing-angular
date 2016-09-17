@@ -8,10 +8,11 @@
  * Controller of the oneDoesSimplyWatchApp
  */
 angular.module('oneDoesSimplyWatchApp')
-  .controller('VideoCtrl', function () {
-    this.awesomeThings = [
+  .controller('VideoCtrl',['$scope', function ($scope) {
+    /*this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
-    ];
-  });
+    ];*/
+
+  }]);

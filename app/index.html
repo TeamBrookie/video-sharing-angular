@@ -9,11 +9,12 @@
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="bower_components/plyr/dist/plyr.css" />
+    <link rel="stylesheet" href="bower_components/video.js/dist/video-js.css" />
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+    <!--<link rel="stylesheet" href="styles/main.css">-->
     <!-- endbuild -->
   </head>
   <body ng-app="oneDoesSimplyWatchApp">
@@ -86,6 +87,8 @@
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/plyr/dist/plyr.js"></script>
     <script src="bower_components/plyr/src/js/plyr.js"></script>
+    <script src="bower_components/video.js/dist/video.js"></script>
+    <script src="bower_components/angular-material/angular-material.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -97,6 +100,6 @@
         <script src="scripts/controllers/video.js"></script>
         <!-- endbuild -->
 
-
+<script>plyr.setup();</script>
 </body>
 </html>

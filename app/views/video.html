@@ -1,6 +1,14 @@
-<video layout="row" layout-xs poster="http://pixel.nymag.com/imgs/daily/vulture/2015/01/30/game-of-thrones-s5/got-daenerys.w750.h560.2x.jpg" controls>
-  <!--<source src="/path/to/video.mp4" type="video/mp4">-->
-  <source src="http://bloodmaker.anax.feralhosting.com/links/deluge_data/%5bDragonMax%5d%20Dragon%20Ball%20Z%20Kai%20-%201080p%20P1/%5bDragonMax%5d%20Dragon%20Ball%20Z%20Kai%20-%201080p%20-%2001.mkv" type="video/webm">
-  <!-- Captions are optional -->
-  <!--<track kind="captions" label="English captions" src="/path/to/captions.vtt" srclang="en" default>>>-->
-</video>
+<video id="my-video" class="video-js" preload="auto" width="800" height="600"
+  data-setup="{}">
+    <source src="http://bloodmaker.anax.feralhosting.com/links/data/heist_zimmer.mp4" type='video/mp4'>
+    <!--<source src="MY_VIDEO.webm" type='video/webm'>-->
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a web browser that
+      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+<br/>
+	<md-button ng-click="togglePlayPause()">PLAY/PAUSE</md-button>
+
+	{{play}}
+	{{currentTime}}/{{duration}}

@@ -3,6 +3,11 @@
 ## Launching project
 
 - Install npm & bower
-- run bower install in root folder
-- run grunt serve
-- enjoy
+```
+npm install -g grunt
+bower install
+npm install
+grunt serve
+```
+
+Enjoy !
